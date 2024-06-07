@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const movies = require("./movies.json");
+const genres = require("./lag.json");
 const dotenv = require("dotenv");
 dotenv.config();
 const app = express();
@@ -9,42 +10,25 @@ app.use(cors({origin:"*"}));
 
 
 
-app.get("/movies",(req,res) =>{
+app.get("/krishdb",(req,res) =>{
     return res.json(movies);
 });
 
 
-app.get("/movies/titles",(req,res) =>{
-    var titles = [];
-    movies.map(movie => {
-        titles.push(movie.title);
-    } );
-    return res.json(titles);
+app.get("/krishdb/genres",(req,res) =>{
+    return res.json(genres);
 });
 
 
-app.get("/movies/posters",(req,res) =>{
-    var posters = [];
-    movies.map(movie => {
-        posters.push(movie.posterUrl);
-    } );
-    return res.json(posters);
-});
+// app.get("/krishdb/posters",(req,res) =>{
+//     var posters = [];
+//     movies.map(movie => {
+//         posters.push(movie.poster);
+//     } );
+//     return res.json(posters);
+// });
 
-app.get("/movies/ids",(req,res) =>{
-    var ids = [];
-    movies.map(movie => {
-        ids.push(movie.id);
-    } );
-    return res.json(ids);
-});
-app.get("/movies/years",(req,res) =>{
-    var years = [];
-    movies.map(movie => {
-        years.push(movie.year);
-    } );
-    return res.json(years);
-});
+
 
 
 const PORT = process.env.PORT;
