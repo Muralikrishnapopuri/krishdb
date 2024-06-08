@@ -306,11 +306,38 @@
     {
         "id": 34,
         "name": "Music Shop Murthi",
-        "new": "upcoming",
+        "new": "Upcoming",
         "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/music-shop-murthy-et00399590-1716881678.jpg",
         "date": "14 Jun, 2024",
         "plot": "Murthy, who has been fond of music since childhood, runs a music shop. But when the income from that shop is not much, family members urge him to close the shop. Hence Murthy tries to learn DJing to earn money.",
         "director": "Siva Paladugu"
+    },
+    {
+        "id": 35,
+        "name":"Bad Boys: Ride or Die",
+        "lag": "English",
+        "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/bad-boys-ride-or-die-et00383487-1715936331.jpg",
+        "date": "6 Jun, 2024",
+        "plot": "The world`s favorite Bad Boys are back with their iconic mix of edge-of-your-seat action and outrageous comedy but this time with a twist: Miami`s finest are now on the run.",
+        "director": "Adil El Arbi"
+    },
+    {
+        "id": 36,
+        "name":"furiosa: A Mad Max Sada",
+        "lag": "English",
+        "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/furiosa-a-mad-max-saga-et00377865-1712650113.jpg",
+        "date": "23 May, 2024",
+        "plot": "As the world fell, young Furiosa is snatched from the Green Place of Many Mothers and falls into the hands of a great Biker Horde led by the Warlord Dementus. Sweeping through the Wasteland, they come across the Citadel presided over by The Immortan Joe.",
+        "director": "George Miller"
+    },
+    {
+        "id": 37,
+        "name":"Evil Dead Rise",
+        "lag": "English",
+        "poster": "https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/evil-dead-rise-et00349309-1689593817.jpg",
+        "date": "21 Apr, 2023",
+        "plot": "Evil Dead Rise tells a twisted tale of two estranged sisters, whose reunion is cut short by the rise of flesh-possessing demons, thrusting them into a primal battle for survival.",
+        "director": "Lee Cronin"
     }
 
 ]
